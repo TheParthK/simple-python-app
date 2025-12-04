@@ -37,8 +37,8 @@ pipeline {
             	. ${VENV_NAME}/bin/activate
             black src tests
             isort src tests || true
-            git config user.name "Jimil1407"
-            git config user.email "jimildigaswala@gmail.com"
+            git config user.name "TheParthK"
+            git config user.email "parthk0902@gmail.com"
             git add src tests
             git commit -m "Auto-format with black/isort" || true
         '''
