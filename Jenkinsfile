@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        PYTHON_VERSION = '3.10.12'
+        PYTHON_VERSION = '3.12.7'
         VENV_NAME = 'jenkins_venv'
     }
     
